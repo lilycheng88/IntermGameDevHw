@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Week 1/Scenes/Subway Sidescroller.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Week 1/Scenes/NY Top Down.unity
     guid: 55ecc13a9bbf04f2fa8cd678781cb014
+  - enabled: 1
+    path: Assets/Week 2/Scenes/Simple 2D Game.unity
+    guid: f48ee2e7dc57d421889f1e33575ab653
   m_configObjects: {}
