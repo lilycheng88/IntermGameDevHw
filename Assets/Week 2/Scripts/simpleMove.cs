@@ -11,10 +11,24 @@ public class simpleMove : MonoBehaviour
     [SerializeField]
     float sprintMultiply = 2.0f;
 
+    public Sprite currSprite;
+    public Sprite newSprite;
+
     // Start is called before the first frame update
     void Start()
     {
         origSpeed = speed;
+        currSprite = gameObject.GetComponent<Sprite>();
+    }
+
+    void ChangeSprite()
+    {
+        currSprite = newSprite;
+    }
+
+    void ReturnSprite()
+    {
+        currSprite = currSprite;
     }
 
     void MoveObject() 
@@ -30,10 +44,12 @@ public class simpleMove : MonoBehaviour
         {
             Camera.main.transform.Translate(-speed, 0, 0);
             // transform.Translate((Vector2.left * Time.deltaTime) * speed);
+            ChangeSprite();
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
             Camera.main.transform.Translate(speed, 0, 0);
+            ReturnSprite();
             // transform.Translate((Vector2.right * Time.deltaTime) * speed);
         }
     }
