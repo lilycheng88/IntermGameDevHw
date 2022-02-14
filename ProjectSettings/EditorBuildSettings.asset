@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Week 1/Scenes/NY Top Down.unity
     guid: 55ecc13a9bbf04f2fa8cd678781cb014
-  - enabled: 1
+  - enabled: 0
     path: Assets/Week 2/Scenes/Simple 2D Game.unity
     guid: f48ee2e7dc57d421889f1e33575ab653
+  - enabled: 1
+    path: Assets/Week 3/Scenes/Rube Goldberg Machine.unity
+    guid: ed8e6aa6c5f0747d688085cc10b44a01
   m_configObjects: {}
