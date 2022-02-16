@@ -15,12 +15,8 @@ public class Bullet : MonoBehaviour
 
     private void Update()
     {
-
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 shootDir = mousePosition - transform.position;
         transform.position += shootDir * speed * Time.deltaTime;
     }
-
-
-
 }
