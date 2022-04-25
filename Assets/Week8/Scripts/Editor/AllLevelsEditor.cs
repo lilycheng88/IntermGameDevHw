@@ -18,7 +18,7 @@ public class AllLevelsEditor : Editor
     {
         if(GUILayout.Button("Add Level"))
         {
-            levelObject.AddLevel
+            levelObject.AddLevel();
         }
 
         for(int i = 0; i < levelObject.levels.Count; i++)

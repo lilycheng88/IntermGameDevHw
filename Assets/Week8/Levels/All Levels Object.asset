@@ -12,3 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddcab83f15ba549988a6339832c90590, type: 3}
   m_Name: All Levels Object
   m_EditorClassIdentifier: 
+  levels:
+  - levelNumber: 1
+    levelType: 0
+    levelName: Sad Grass Level
+    enemyCount: 0
+    timeLimit: 0
+    bossSpawnPerct: 0
+  - levelNumber: 2
+    levelType: 0
+    levelName: Cool Grass Level
+    enemyCount: 0
+    timeLimit: 0
+    bossSpawnPerct: 0
+  - levelNumber: 3
+    levelType: 0
+    levelName: Bad Grass Level
+    enemyCount: 0
+    timeLimit: 0
+    bossSpawnPerct: 0
